@@ -4,7 +4,7 @@
     <a href="{{ route('home') }}" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <img class="w-10 h-10 text-white" 
         src="{{ asset('images/logo.svg') }}" /> 
-      <span class="ml-3 text-red-700 text-xl">AvoRed</span>
+      <span class="ml-3 text-red-700 text-xl">Travlease</span>
     </a>
    
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">

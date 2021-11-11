@@ -21,7 +21,7 @@
         {!! $page->getContent() !!}
       @endif
 
-    <h1 class="text-2xl my-5 text-red-700">{{ __('AvoRed Special Week') }}</h1>
+    <h1 class="text-2xl my-5 text-red-700">{{ __('Travlease Special Week') }}</h1>
     <div class="block">
       <div class="flex flex-wrap">
           @foreach ($products as $product)
