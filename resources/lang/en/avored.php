@@ -73,6 +73,15 @@ return [
     'user_shipping_address' => 'User shipping address',
     'place_order' => 'Place Order',
     'payment_options' => 'Payment Options',
-    'cart_information' => 'Cart Information'
-
+    'cart_information' => 'Cart Information',
+    'fields' => [
+        'company_name' => 'Company Name',
+        'phone' => 'Phone',
+        'address1' => 'Address Line 1',
+        'address2' => 'Address Line 2',
+        'country_id' => 'Country',
+        'state' => 'State',
+        'postcode' => 'PIN Code',
+        'city' => 'City'
+    ]
 ];
