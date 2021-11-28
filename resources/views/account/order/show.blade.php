@@ -82,7 +82,7 @@
 
                         <div class="border rounded w-1/2 ml-5">
                             <div class="border-b font-semibold text-red-500 p-5 py-3">
-                                {{ __('avored::system.terms.billing_address') }}
+                                {{ __('avored::system.terms.user_billing_address') }}
                             </div>
                             <div class="p-5">
                                 {{ $order->billingAddress->first_name }} {{ $order->billingAddress->last_name }} <br/>

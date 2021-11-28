@@ -11,6 +11,7 @@ use Barryvdh\Debugbar\Facade;
 use Barryvdh\Debugbar\ServiceProvider as DebugbarServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -82,5 +83,6 @@ class AppServiceProvider extends ServiceProvider
                 ->type(MenuItem::FRONT)
                 ->route('account.order.index');
         });
+        Schema::defaultStringLength(191);
     }
 }

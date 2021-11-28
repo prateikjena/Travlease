@@ -8,14 +8,14 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicontrav.png">
     <!-- Scripts -->
     
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    
     <!-- Styles -->
     @if(env('APP_ENV') === 'testing1' && file_exists(public_path('mix-manifest.json')))
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -24,14 +24,14 @@
     @endif
     {{-- <script src="https://js.stripe.com/v3/"></script> --}}
 </head>
-<body>
+<body style="background:url('/images/trek1.svg') no-repeat fixed center">
     <div id="app">
         <avored-layout inline-template>
-            <div>
+            <div  >
                 @include('partials.nav')
                 <div class="mt-5">
                     @include('partials.breadcrumb')
-                    <div class="bg-white container mx-auto">
+                    <div class=" container mx-auto">
                         <div class="flex">
                             <div class="flex-1 ml-5">
                                 <div>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 
-                <div  class="border-t">
+                <div  class="bg-white bg-opacity-25">
                     @include('partials.footer')
                 </div>
             </div>

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('breadcrumb')
-<div class="bg-gray-200 p-3 rounded text-sm mb-5">
-    <ol class="list-reset flex text-gray-700">
+<div class="bg-green-900 bg-opacity-75 p-3 rounded text-sm mb-5">
+    <ol class="list-reset flex text-white">
       <li>
           <a class=" font-semibold" href="{{ route('home') }}">
               {{ __('avored.home') }}

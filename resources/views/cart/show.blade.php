@@ -1,17 +1,17 @@
 @extends('layouts.app')
 
 @section('breadcrumb')
-<nav class="text-black bg-gray-400 rounded mb-5 py-2 px-5" aria-label="Breadcrumb">
-  <ol class="list-none p-0 inline-flex">
+<nav class="text-white bg-green-900 bg-opacity-75 rounded mb-5 py-2 px-5" aria-label="Breadcrumb">
+  <ol class="list-none p-0 inline-flex font-semibold" >
     <li class="flex items-center">
-      <a href="{{ route('home') }}" class="text-gray-700" title="home">
+      <a href="{{ route('home') }}" title="home">
         {{ __('avored.home') }}
       </a>
-      <svg class="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+      <svg class="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" fill="white"/></svg>
     </li>
    
     <li class="flex items-center">
-      <a href="#" class="text-gray-700" title="home">
+      <a href="#"  title="home">
         {{ __('avored.cart_page') }}
       </a>
     </li>
@@ -33,18 +33,18 @@
     inline-template>
 
 <div class="my-6">
-    <h1 class="mb-6 text-red-800 font-semibold text-2xl">
-        {{ __('avored.cart_page') }}
+    <h1 class="mb-6 text-black font-semibold text-2xl">
+        Your {{ __('avored.cart_page') }} has total of {{ Cart::count() }} items
     </h1>
-    <div class="w-full p-8 text-gray-800 bg-white shadow-lg">
+    <div class="w-full p-8 text-gray-800 bg-white bg-opacity-75 rounded-md shadow-md p-6">
         
     <table class="w-full text-sm lg:text-base" cellspacing="0">
         <thead>
             <tr class="h-12 uppercase">
                 <th class="md:table-cell"></th>
-                <th class="hidden md:table-cell"></th>
+                <th class="hidden md:table-cell text-left">Item</th>
                 <th class="text-left">
-                    {{ __('avored.product') }}
+                    {{ __('avored.product') }} name
                 </th>
                 <th class="lg:text-right text-left pl-5 lg:pl-0">
                     <span class="lg:hidden" title="{{ __('avored.qty') }}">
@@ -55,7 +55,7 @@
                 <th class="hidden text-right md:table-cell">
                     {{ __('avored.unit_price') }}
                 </th>
-                <th class="text-right">{{ __('avored.total_price') }}</th>
+                <th class="text-right">{{ __('avored.amount') }}</th>
             </tr>
         </thead>
         <tbody>
@@ -74,7 +74,7 @@
                 </td>
                 <td>
                     <a href="#">
-                        <p class="mb-2 md:ml-4">@{{ item.name }}</p>
+                        <p class="mb-2 text-left ">@{{ item.name }}</p>
                     </a>
                 </td>
                 <td class="justify-center md:justify-end md:flex mt-6">
@@ -154,17 +154,15 @@
                 >
                     {{ __('avored.discount_coupon') }}
                 </div>
-                <div
-                    class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900"
-                >
-                    <div class="flex items-center">
+                <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
+                    <div class="flex items-center ">
                         <avored-input
-                            v-model="promotionCode"
+                            v-model="promotionCode" class="w-2/6 ml-3 text-bold px-2 py-3 rounded"
                         ></avored-input>
                         <button
                             @click="applyPromotionCodeClicked"
                             type="button" 
-                            class="ml-3 bg-red-500 text-white text-xs px-2 py-3 leading-6 rounded">
+                            class="w-2/6 ml-3 bg-red-500 text-white text-bold px-2 rounded" style="height:43px;">
                             {{ __('avored.apply') }}
                         </button>
                     </div>

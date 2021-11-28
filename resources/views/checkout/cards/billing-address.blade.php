@@ -1,13 +1,13 @@
 <div v-show="useDifferentBillingAddress">
     <h4 class="text-lg text-red-700 font-semibold my-5">
-        {{ __('avored.user') }} {{ __('avored.billing_address') }}
+      {{ __('avored.user_billing_address') }}
     </h4>
     <div v-if="displayBillingDropdown">
         <div class="flex items-center">
             <div class="w-full">
                 <div class="mt-3 flex w-full">
                     <avored-select
-                        label-text="{{ __('avored.billing_address') }}"
+                        label-text="{{ __('avored.user_billing_address') }}"
                         error-text="{{ $errors->first('billing.address_id') }}"
                         field-name="field_type"
                         :init-value="initBillingAddress"
@@ -19,8 +19,8 @@
             </div>
         </div>
     </div>
-    <div v-if="billingAddresses.length <= 0  || selectedBillingAddress === null">
-        <div class="flex">
+    <div v-if="billingAddresses.length <= 0  || selectedBillingAddress === null" class="text-balck">
+        <div class="flex text-black">
             <div class="w-1/2">
                 <avored-input
                     label-text="{{ __('avored.first_name') }}"

@@ -5,7 +5,7 @@
       <div class="sm:mx-auto py-10 bg-white shadow-lg sm:rounded-lg sm:w-full sm:max-w-md">
         <div class="">
           <img class="mx-auto h-12 w-auto" 
-            src="/vendor/avored/images/logo.svg" alt="AvoRed" />
+            src="/vendor/avored/images/logotravlease.svg" alt="AvoRed" />
           <h2
             class="mt-6 text-center text-blue-600 text-3xl leading-9 font-semibold text-gray-900"
           >{{ $t('system.pages.user.login.title') }}</h2>

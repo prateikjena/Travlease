@@ -3,8 +3,8 @@
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="/images/logo.svg" class="h-6 w-6" />
-        <span class="ml-3 text-xl">AvoRed</span>
+        <img src="/images/logotravlease.svg" class="h-6 w-6" />
+        <span class="ml-3 text-xl">Travlease</span>
       </a>
       <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
     </div>
