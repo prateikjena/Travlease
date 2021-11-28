@@ -1,12 +1,12 @@
-
+<div class="max-w-lg w-full ">
 <div><h4 class="text-lg text-red-700 font-semibold my-5">{{ __('avored.cart_information') }}</h4></div>
 
 <div class="flex">
-    <div class="w-1/6">Image</div>
+    <div class="w-1/6">Item</div>
     <div class="w-2/6">Name</div>
     <div class="w-1/6">Qty</div>
-    <div class="w-1/6">Price</div>
-    <div class="w-1/6">Line Total</div>
+    <div class="w-1/6">Unit Price</div>
+    <div class="w-1/6">Amount</div>
 </div>
 <div class="flex items-center" :key="item.slug" v-for="item in items">
     <div class="w-1/6">
@@ -36,12 +36,14 @@
         </div>
     </div>
 @endif
+<div class="mt-2 mb-2 border-b "></div>
 <div class="flex items-center">
     <div class="w-1/6"></div>
     <div class="w-2/6"></div>
-    <div class="w-1/6"></div>
-    <div class="w-1/6">Total</div>
+    <div class="w-1/6 "></div>
+    <div class="w-1/6 ">Total</div>
     <div class="w-1/6">
         {{ session()->get('default_currency')->symbol }}{{ Cart::total() }}
     </div>
+</div>
 </div>

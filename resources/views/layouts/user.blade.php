@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'AvoRed an Laravel E commerce') }}</title>
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicontrav.png">
     <!-- Scripts -->
     
 
