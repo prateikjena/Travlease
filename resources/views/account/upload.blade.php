@@ -1,5 +1,5 @@
 @extends('layouts.user')
-<body style="background-image:url(/images/bg.svg)">
+
 @section('breadcrumb')
 <nav class=" text-white bg-green-900 bg-opacity-75 rounded mb-5 py-2 px-5" aria-label="Breadcrumb">
   <ol class="list-none p-0 inline-flex font-semibold">

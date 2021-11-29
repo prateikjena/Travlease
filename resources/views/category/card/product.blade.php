@@ -3,7 +3,7 @@ $product->main_image_url = empty($product->mainImage) ? 'https://placehold.it/25
 @endphp
 
 <div class="max-w-18 bg-white border shadow-lg rounded-lg overflow-hidden ml-3 my-10" >
-    <div class="bg-purple-600 h-3/6">
+    <div class=" h-3/6">
         <a href="{{ route('product.show', $product->slug) }}" title="{{ $product->name }}">
             <img class="h-56 w-full object-cover" src="{{ $product->main_image_url }}" alt="{{ $product->name }}">
         </a>
