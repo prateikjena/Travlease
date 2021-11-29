@@ -4,7 +4,7 @@
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
      
       <img src="/images/logotravlease.svg" class="w-8 h-8" alt="Travlease Ecommerce" />
-      <span class="text-xl leading-7 text-red-600">Travlease</span>
+      <span class="text-xl leading-7 text-green-900">Travlease</span>
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <a class="mr-5 hover:text-gray-900">First Link</a>

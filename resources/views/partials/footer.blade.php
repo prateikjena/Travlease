@@ -1,7 +1,7 @@
 <footer class="text-gray-700 mt-5">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex  font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src="{{ asset('vendor/avored/images/logotravlease.svg') }}" class="h-10 w-10" />
+        <img src="{{ asset('vendor/avored/images/logo-w.svg') }}" class="h-10 w-10" />
       </a>
       <p class="text-sm text-white sm:pl-4 sm:border-l-2 sm:border-white sm:py-2 sm:mt-0 mt-4">© {{ date('Y') }} Travlease —
         <a href="{{ route('home') }}" class="text-white hover:text-green-900 ml-1" rel="noopener noreferrer" target="_blank"><strong>Travlease</strong></a>

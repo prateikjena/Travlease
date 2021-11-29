@@ -7,8 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="shortcut icon" href="/favicontrav.png">
+    <title>{{ config('app.name', 'Travlease') }}</title>
+    <link rel="shortcut icon" href="/favicon.png">
     <!-- Scripts -->
     
 
@@ -24,7 +24,8 @@
     @endif
     {{-- <script src="https://js.stripe.com/v3/"></script> --}}
 </head>
-<body style="background:url('/images/trek1.svg') no-repeat fixed center">
+
+<body style="background:url('/images/trek1.svg');  position:relative; background-position:center; background-size:cover; background-repeat:no-repeat; background-attachment:fixed;">
     <div id="app">
         <avored-layout inline-template>
             <div  >
