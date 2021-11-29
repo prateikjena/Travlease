@@ -1,5 +1,5 @@
 <div class="max-w-lg w-full ">
-<div><h4 class="text-lg text-red-700 font-semibold my-5">{{ __('avored.cart_information') }}</h4></div>
+<div><h4 class="text-lg text-black font-semibold my-5">{{ __('avored.cart_information') }}</h4></div>
 
 <div class="flex">
     <div class="w-1/6">Item</div>

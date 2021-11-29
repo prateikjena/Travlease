@@ -1,6 +1,6 @@
 
 <div>
-    <h4 class="text-lg text-red-700 font-semibold my-5">
+    <h4 class="text-lg text-black font-semibold my-5">
         {{ __('avored.shipping_options') }}
     </h4>
 </div>

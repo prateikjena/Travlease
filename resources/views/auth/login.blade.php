@@ -1,5 +1,6 @@
 @extends('layouts.app')
-<body style="background:url('/images/beach1.svg') no-repeat fixed center">
+<body style="background:url('/images/beach1.svg');  z-index:-1; position:relative; background-position:center; background-size:cover; background-repeat:no-repeat; background-attachment:fixed;">
+
 @section('breadcrumb')
 <nav class="text-white bg-green-900 bg-opacity-75 rounded mb-5 py-2 px-5" aria-label="Breadcrumb">
   <ol class="list-none p-0 inline-flex font-semibold">
