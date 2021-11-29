@@ -51,7 +51,7 @@
                   @include('checkout.cards.payment-option')   
                   @include('checkout.cards.cart-items')   
                   
-                  <button type="submit" class="px-3 py-1 mt-3 mr-20 float-right bg-red-500 text-white text-sm font-semibold rounded">
+                  <button type="submit" class="px-3 py-1 mt-3 mr-20 float-right bg-green-900 hover:bg-green-600 text-white text-sm font-semibold rounded">
                       {{ __('avored.place_order') }}
                   </button>
             </div>

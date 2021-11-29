@@ -162,7 +162,7 @@
                         <button
                             @click="applyPromotionCodeClicked"
                             type="button" 
-                            class="w-2/6 ml-3 bg-red-500 text-white text-bold px-2 rounded" style="height:43px;">
+                            class="w-2/6 ml-3 bg-green-900 hover:bg-green-600 text-white text-bold px-2 rounded" style="height:43px;">
                             {{ __('avored.apply') }}
                         </button>
                     </div>
@@ -195,7 +195,7 @@
             </div>
                 <a :href="checkoutUrl">
                     <button
-                        class="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase bg-gray-800 rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none"
+                        class="flex justify-center w-full px-10 py-3 mt-6 font-medium rounded-md text-white uppercase bg-green-900 shadow item-center hover:bg-green-600 focus:shadow-outline focus:outline-none"
                     >
                         <svg
                             aria-hidden="true"

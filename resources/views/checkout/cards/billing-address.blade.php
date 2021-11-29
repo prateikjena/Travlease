@@ -1,5 +1,5 @@
 <div v-show="useDifferentBillingAddress">
-    <h4 class="text-lg text-red-700 font-semibold my-5">
+    <h4 class="text-lg text-black font-semibold my-5">
       {{ __('avored.user_billing_address') }}
     </h4>
     <div v-if="displayBillingDropdown">

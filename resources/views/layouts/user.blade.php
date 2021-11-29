@@ -25,7 +25,7 @@
     @endif
     {{-- <script src="https://js.stripe.com/v3/"></script> --}}
 </head>
-<body>
+<body style="background-image:url(/images/bg.svg);  position:relative; background-position:center; background-size:cover; background-repeat:no-repeat; background-attachment:fixed;">
     <div id="app">
         <avored-layout inline-template>
             <div class="">
@@ -33,7 +33,7 @@
                     @include('partials.nav')
                     <div class="my-5 container mx-auto">
                         @yield('breadcrumb')
-                        <div class="bg-white">
+                        <div >
                             <div class="flex">
                                 <div class="w-40 bg-white shadow overflow-hidden sm:rounded-lg text-center">
                                     @include('partials.account-nav')
