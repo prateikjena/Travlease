@@ -29,6 +29,7 @@ return [
     'postcode' => 'Postcode',
     'home' => 'Home',
     'orders' => 'Orders',
+    'about' => 'About',
     'account' => 'Account',
     'edit' => 'Edit',
     'email' => 'Email',

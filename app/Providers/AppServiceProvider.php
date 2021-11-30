@@ -83,6 +83,7 @@ class AppServiceProvider extends ServiceProvider
                 ->type(MenuItem::FRONT)
                 ->route('account.order.index');
         });
+        
         Schema::defaultStringLength(191);
     }
 }
