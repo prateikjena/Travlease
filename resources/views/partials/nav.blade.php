@@ -7,9 +7,9 @@
       <span class="ml-3 text-green-900 text-xl"><strong>Travlease</strong></span>
     </a>
    
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center ">
         @foreach ($menus as $menu)
-            <a href="{{ $menu->url }}" class="mr-5 hover:text-gray-900 hover:border-white">
+            <a href="{{ $menu->url }}" class="mr-5 rounded-sm border-solid border-transparent border-opacity-20 ease-in-out text-black-900 hover:border-green-900" style="border-bottom-width: 3px;">
                 {{ $menu->name }}
             </a>      
         @endforeach

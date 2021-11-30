@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 Route::get('', 'HomeController@index')->name('home');
-
+Route::get('about', 'PageController@show')->name('about');
 Route::get('category/{category}', 'Category\CategoryController@show')->name('category.show');
 Route::get('product/{product}', 'Product\ProductController@show')->name('product.show');
 
