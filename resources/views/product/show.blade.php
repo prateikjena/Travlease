@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="w-2/3 ml-5">
-          <h2 class="text-semibold text-red-700 text-2xl py-6">{{ $product->name }}</h2>
+          <h2 class="text-semibold text-black  text-2xl py-6">{{ $product->name }}</h2>
 
             @if ($product->type === 'BASIC') 
               @include('product.type.basic')
@@ -43,7 +43,7 @@
       </div>
 
       <div class="rounded border">
-          <div class="text-semibold p-3 text-red-700 text-2xl border-b">
+          <div class="text-semibold p-3 text-black text-2xl border-b">
               {{ __('Description') }}
           </div>
           <p class="p-5">{!! $product->description !!}</p>
@@ -53,7 +53,7 @@
           @php
             $properties = $product->getProperties();
           @endphp
-          <div class="text-semibold p-3 border-b text-red-700 text-2xl">
+          <div class="text-semibold p-3 border-b text-black text-2xl">
             {{ __('avored.properties') }}
           </div>
           <div class="p-5">
