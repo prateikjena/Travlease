@@ -59,6 +59,8 @@ vendor/vlucas
 vendor/webmozart
 vendor/webonyx
 vendor/autoload.php
+vendor/razorpay
+vendor/rmccue
 /modules/avored/stripe
 /modules/avored/pos
 /modules/avored/heroproduct

@@ -14,6 +14,7 @@
 use App\Http\Controllers\Account\OrderCommentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RazorpayPaymentController;
 
 // Route::get('/{any}', [SpaController::class, 'index'])->where('any', '.*');
 
@@ -23,6 +24,9 @@ Route::get('', 'HomeController@index')->name('home');
 Route::get('about', 'PageController@show')->name('about');
 Route::get('category/{category}', 'Category\CategoryController@show')->name('category.show');
 Route::get('product/{product}', 'Product\ProductController@show')->name('product.show');
+
+Route::get('payment', [RazorpayPaymentController::class, 'index']);
+Route::post('payment', [RazorpayPaymentController::class, 'store']);
 
 Route::get('cart', 'Cart\CartController@show')->name('cart.show');
 Route::post('apply-promotion-code/{code}', 'Cart\CartController@applyPromotionCode')->name('promotion-code.apply');

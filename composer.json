@@ -12,7 +12,8 @@
         "avored/banner": "^2.4",
         "avored/framework": "~3.2",
         "darkghosthunter/rememberable-query": "^1.1",
-        "fideloper/proxy": "^4.0"
+        "fideloper/proxy": "^4.0",
+        "razorpay/razorpay": "^2.8"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.3",
