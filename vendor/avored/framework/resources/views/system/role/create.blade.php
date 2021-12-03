@@ -2,12 +2,12 @@
 
 
 @section('meta_title')
-    {{ __('avored::system.pages.title.create', ['attribute' => __('avored::system.terms.role')]) }}: AvoRed E commerce Admin Dashboard
+    {{ __('avored::system.pages.title.create', ['attribute' => __('avored::system.terms.role')]) }}:  Travlease Admin Dashboard
 @endsection
 
 @section('page_title')
     <div class="text-gray-800 flex items-center">
-        <div class="text-xl text-red-700 font-semibold">
+        <div class="text-xl text-black font-semibold">
             {{ __('avored::system.pages.title.create', ['attribute' => __('avored::system.terms.role')]) }}
         </div>
     </div>

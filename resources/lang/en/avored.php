@@ -60,6 +60,7 @@ return [
     'create' => 'Create',
     'show_order' => 'Show Order',
     'add_to_cart' => 'Add to cart',
+    'add_to_wishlist' => 'Wishlist',
     'reset_password' => 'Reset Password',
     'password_update' => 'Update your password',
     'cart_page' => 'Cart',

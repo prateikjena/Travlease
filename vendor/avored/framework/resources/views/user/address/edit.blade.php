@@ -1,12 +1,12 @@
 @extends('avored::layouts.app')
 
 @section('meta_title')
-    {{ __('avored::system.pages.title.edit', ['attribute' => __('avored::system.terms.customer')]) }}: AvoRed E commerce Admin Dashboard
+    {{ __('avored::system.pages.title.edit', ['attribute' => __('avored::system.terms.customer')]) }}:  Travlease Admin Dashboard
 @endsection
 
 @section('page_title')
     <div class="text-gray-800 flex items-center">
-        <div class="text-xl text-red-700 font-semibold">
+        <div class="text-xl text-black font-semibold">
             {{ __('avored::system.pages.title.edit', ['attribute' => __('avored::system.address')]) }}
         </div>
     </div>

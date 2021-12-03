@@ -27,12 +27,11 @@
       @if (session('type') === 'error')
         @include('components.error', ['message' => session('message')])
       @endif
-    <div class="flex container mx-auto">
+    <div class="flex container mx-auto ">
 
-      <div class="w-1/6">
+      <div class="w-1/6 bg-white bg-opacity-75 rounded">
         @include('category.card.filters')
       </div>
-      
       <div class="w-5/6 ml-3">
         <h1 class="text-green-900 mt-3 ml-5 text-2xl uppercase font-semibold">
           {{ $category->name }}
@@ -45,7 +44,6 @@
                     </div>
                 @endforeach
             </div>
-        
         </div>
       </div>
     </div>

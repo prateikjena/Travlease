@@ -15,7 +15,7 @@
 
 @section('content')
 <product-page :product="{{ $product }}" :variations="{{ $product->getVariations() }}" inline-template>
-  <div class="container mx-auto">    
+  <div class="container mx-auto bg-white bg-opacity-75">    
       @if (session('type') === 'success')
         @include('components.success', ['message' => session('message')])
       @endif
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="w-2/3 ml-5">
-          <h2 class="text-semibold text-black  text-2xl py-6">{{ $product->name }}</h2>
+          <h2 class="font-semibold text-black  text-2xl py-6">{{ $product->name }}</h2>
 
             @if ($product->type === 'BASIC') 
               @include('product.type.basic')
@@ -43,7 +43,7 @@
       </div>
 
       <div class="rounded border">
-          <div class="text-semibold p-3 text-black text-2xl border-b">
+          <div class="font-semibold p-3 text-black text-2xl border-b">
               {{ __('Description') }}
           </div>
           <p class="p-5">{!! $product->description !!}</p>
@@ -53,7 +53,7 @@
           @php
             $properties = $product->getProperties();
           @endphp
-          <div class="text-semibold p-3 border-b text-black text-2xl">
+          <div class="font-semibold p-3 border-b text-black text-2xl">
             {{ __('avored.properties') }}
           </div>
           <div class="p-5">

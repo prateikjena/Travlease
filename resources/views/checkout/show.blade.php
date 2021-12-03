@@ -26,8 +26,6 @@
     :items="{{ Cart::toArray() }}"
     :addresses="{{ $addresses }}"
     inline-template>
-
-
     <div class="container ">
         <h1 class=" text-green-900 text-2xl font-semibold my-5">
             {{ __('avored.checkout_page') }}

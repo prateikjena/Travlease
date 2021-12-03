@@ -1,7 +1,7 @@
 @extends('avored::layouts.app')
 
 @section('meta_title')
-    {{ __('avored::system.language.create.title') }}: AvoRed E commerce Admin Dashboard
+    {{ __('avored::system.language.create.title') }}:  Travlease Admin Dashboard
 @endsection
 
 @section('page_title')
