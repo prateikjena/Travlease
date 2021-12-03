@@ -22,7 +22,7 @@
 @endsection
 
 @section('content')
-    <div class="flex items-center justify-center bg-gray py-12 px-4 sm:px-6 lg:px-8" >
+    <div class="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8" >
         <div class="max-w-lg w-full bg-white rounded-md shadow-md p-6">
         <!-- <div class="max-w-lg w-full bg-white bg-opacity-75 rounded-md shadow-md p-6"> -->
             <div>

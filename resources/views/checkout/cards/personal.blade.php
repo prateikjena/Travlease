@@ -1,4 +1,4 @@
-<h4 class="text-lg text-red-700 font-semibold my-5">{{ __('avored.user_personal_info') }}</h4>
+<h4 class="text-lg text-black font-semibold my-5">{{ __('avored.user_personal_info') }}</h4>
 @guest('customer')
     <div class="flex items-center">
         <div class="w-1/2">

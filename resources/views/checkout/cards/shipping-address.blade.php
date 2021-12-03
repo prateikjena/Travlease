@@ -1,4 +1,4 @@
-<h4 class="text-lg text-red-700 font-semibold my-5">{{ __('avored.user_shipping_address') }}</h4>
+<h4 class="text-lg font-semibold my-5">{{ __('avored.user_shipping_address') }}</h4>
 
 <div v-if="displayShippingDropdown">
     <div class="flex items-center">

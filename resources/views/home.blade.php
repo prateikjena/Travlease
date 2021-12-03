@@ -34,25 +34,3 @@
     </div>
 </div>  
 @endsection
-
-@section('services')
-<h4>There's more to renting</h4>
-<div class="border-gray-900">Finest-quality products
-Quality matters to you, and us! That's why we do a strict quality-check for every product.
-
-Free relocation
-Changing your house or even your city? We'll relocate your rented products for free.
-
-Free maintenance
-Keeping your rented products in a spick and span condition is on us, so you can sit back and relax.
-
-Cancel anytime
-Pay only for the time you use the product and close your subscription without any hassle.
-
-Easy return on delivery
-If you don't like the product on delivery, you can return it right away—no questions asked.
-
-Keep upgrading
-Bored of the same product? Upgrade to try another, newer design and enjoy the change!
-</div>
-@endsection
