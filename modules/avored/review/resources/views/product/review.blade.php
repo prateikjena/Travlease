@@ -1,6 +1,6 @@
 <div>
     <div class="mt-5 rounded border">
-        <div class="text-semibold p-3 border-b text-red-700 text-2xl">
+        <div class="font-semibold p-3 border-b text-black text-2xl">
             {{ __('avored-review::review.title') }}
         </div>
         <div class="p-5">
@@ -11,7 +11,7 @@
                     </div>
 
                     <div class="mx-3 pt-3 inline-block">
-                        <div class="text-red-700 font-semibold">User Name</div>
+                        <div class="text-black font-semibold">User Name</div>
                         <div class="text-xs">1 day ago</div>
                     </div>
                     <div class="mx-5 py-3 flex-1">
@@ -42,7 +42,7 @@
     </div>
 
     <div class="mt-5 rounded border">
-        <div class="text-semibold p-3 border-b text-red-700 text-2xl">
+        <div class="font-semibold p-3 border-b text-black text-2xl">
             {{ __('avored-review::review.create_review') }}
         </div>
         <div class="p-5">

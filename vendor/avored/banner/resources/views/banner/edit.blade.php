@@ -1,13 +1,13 @@
 @extends('avored::layouts.app')
 
 @section('meta_title')
-    {{ __('avored::system.common.create') . ' ' . __('avored-banner::banner.title') }}: AvoRed E commerce Admin Dashboard
+    {{ __('avored::system.common.create') . ' ' . __('avored-banner::banner.title') }}: Travlease Admin Dashboard
 @endsection
 
 
 @section('page_title')
     <div class="text-gray-800 flex items-center">
-        <div class="text-xl text-red-700 font-semibold">
+        <div class="text-xl  font-semibold">
             {{ __('avored::system.pages.title.create', ['attribute' => __('avored-banner::banner.title')]) }}
         </div>
     </div>

@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('meta_title', 'AvoRed E commerce')</title>
+    <title>@yield('meta_title', 'Travlease')</title>
 
     {!! Asset::renderCSS() !!}
     @push('styles')
@@ -18,10 +18,10 @@
         <div class="min-h-screen flex items-center justify-center bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
             <div class="max-w-md w-full bg-white rounded-md shadow-md p-6">
                 <div>
-                    <a href="https://avored.com" target="_blank">
+                    <a href="#" target="_blank">
                         <img class="mx-auto h-12 w-auto" 
-                            src="{{ asset('/images/logo.svg') }}" 
-                            alt="AvoRed Ecommerce" />
+                            src="{{ asset('/images/logotravlease.svg') }}" 
+                            alt="Travlease-logo" />
                     </a>
                     <h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-gray-900">
                         {{ __('avored::system.auth.password.title') }}

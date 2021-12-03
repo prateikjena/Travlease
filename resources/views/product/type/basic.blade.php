@@ -21,8 +21,8 @@
         init-value="1"
         field-name="qty">
     </avored-input>
-    <button class="text-white mt-5 px-4 bg-red-500 border-0 py-2 
-        focus:outline-none hover:bg-red-600 rounded text-lg">
+    <button class="text-white mt-5 px-4 bg-green-800 border-0 py-2 
+        focus:outline-none hover:bg-green-600 rounded text-lg">
         {{ __('avored.add_to_cart') }}
     </button>
     <input type="hidden" name="slug" value="{{ $product->slug }}" />
@@ -36,8 +36,8 @@
 
 <form method="post" class="pb-5 w-40" action="{{ route('wishlist.store') }}">
     @csrf
-    <button class="text-white mt-5 px-4 bg-gray-500 border-0 py-2 
-        focus:outline-none hover:bg-gray-700 leading-7 rounded text-xs">
+    <button class="text-white mt-5 px-4 bg-red-600 border-0 py-2 
+        focus:outline-none hover:bg-red-500 leading-7 rounded text-xs">
             {{ __('avored.add_to_wishlist') }}
     </button>
     <input type="hidden" name="slug" value="{{ $product->slug }}" />
