@@ -25,7 +25,7 @@ Route::get('about', 'PageController@show')->name('about');
 Route::get('category/{category}', 'Category\CategoryController@show')->name('category.show');
 Route::get('product/{product}', 'Product\ProductController@show')->name('product.show');
 
-Route::get('payment', [RazorpayPaymentController::class, 'index']);
+Route::get('payment', [RazorpayPaymentController::class, 'index'])->name('payment');
 Route::post('payment', [RazorpayPaymentController::class, 'store']);
 
 Route::get('cart', 'Cart\CartController@show')->name('cart.show');

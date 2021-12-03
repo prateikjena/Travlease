@@ -33,8 +33,8 @@
         <form 
           @submit.prevent="handleSubmit" 
             id="checkout-form"  
-            method="post" 
-            action="{{ route('order.place') }}"
+            method="get" 
+            action="{{ route('payment') }}"
         >
           @csrf          
           <div class="flex bg-white bg-opacity-75 rounded mb-5 py-2 px-5 mx-auto">
